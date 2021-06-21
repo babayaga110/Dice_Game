@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dice Game</title>
+        <link href="css/main.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="heading-section">
+                <h1>Java<span>Script</span> Game</h1>
+            </div>
+        </header>    
+        <section class="game-section">
+            <h2 id="playerTurn">
+                Player 1 Turn
+            </h2>
+                <div class="game-box">
+                    <div>
+                        <h2 id="player1Score">Score: 0</h2>
+                        <div id="player1Dice" class="dice active">-</div>
+                    </div>
+                    <div>
+                        <h2 id="player2Score">Score: 0</h2>
+                        <div id="player2Dice" class="dice">-</div>
+                    </div>
+                </div>
+                <button id="startGame">Roll Dice</button>
+                <button id="resetGame">Restart</button>
+        </section>
+        
+        <!-- Script file's -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

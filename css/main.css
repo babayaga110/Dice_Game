@@ -1,0 +1,110 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+/*--------------
+     Global 
+----------------*/
+
+body{
+    margin: 0 ;
+    background: url(../wood-wallpaper-10120-10479-hd-wallpapers.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*---------------
+    Typography 
+ ----------------*/
+
+h1{
+    font-size: 5rem;
+    color: #800000;
+    font-family: 'Rancho', cursive;
+   
+}
+
+h1 span{
+    font-size: 6rem;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 2rem;
+    color: #fff;
+}
+
+p{
+    font-size: 1rem;
+    color: #fff;
+}
+
+/*-------------
+    Section  
+---------------*/
+
+
+.heading-section{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.game-section {
+    max-width: 600px;
+    background: url(../teahub.io-wallmax-wallpaper-1900092.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.game-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+    height: 250px;
+
+}
+
+.dice{
+    background: #800000;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 80px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    border: white;
+    background: white;
+    color: #800000;
+    margin: 0 auto;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    color: #fff;
+    background: #800000;
+}
+
+#resetGame{
+    display: none;
+}
+
+.active{
+    background: #fff;
+    color: #800000;
+    box-shadow: 0px 0px 10px 6px #800000;
+}
